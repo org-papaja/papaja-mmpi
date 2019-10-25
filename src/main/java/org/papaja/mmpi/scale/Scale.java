@@ -7,8 +7,8 @@ import java.util.EnumMap;
 public enum Scale {
 
     SCALE_A(new EnumMap<Sex, int[]>(Sex.class) {{
-        put(Sex.MALE, new int[] {2, 3, 2, 2, 3});
-        put(Sex.FEMALE, new int[] {2, 3, 2, 2, 3});
+        put(Sex.M, new int[] {2, 3, 2, 2, 3});
+        put(Sex.F, new int[] {2, 3, 2, 2, 3});
     }}),
 
 
